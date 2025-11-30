@@ -11,7 +11,26 @@ permissions:
   id-token: write
 
 jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Run Linter
+        run: npm run lint
+
   build:
+    needs: lint
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -20,7 +39,6 @@ jobs:
       - name: Install, build, and upload your site
         uses: withastro/action@v2
         with:
-            # path: . # The root location of your Astro project inside the repository.
             node-version: 20
             package-manager: npm@latest
 

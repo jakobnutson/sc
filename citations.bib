@@ -3,7 +3,14 @@
   author={Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\L}ukasz and Polosukhin, Illia},
   journal={Advances in neural information processing systems},
   volume={30},
-  year={2017}
+  year={2017},
+  url={https://arxiv.org/pdf/1706.03762.pdf},
+  code={https://github.com/tensorflow/tensor2tensor},
+  slides={https://www.slide-share.com/vaswani/attention},
+  video={https://www.youtube.com/watch?v=rBCqOTEfxvg},
+  cover={../../assets/transformer-cover.jpg},
+  note={Best Paper Award},
+  abstract={The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely.}
 }
 
 @inproceedings{he2016deep,
@@ -11,5 +18,62 @@
   author={He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
   booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
   pages={770--778},
-  year={2016}
+  year={2016},
+  url={https://arxiv.org/pdf/1512.03385.pdf},
+  code={https://github.com/KaimingHe/deep-residual-networks},
+  cover={../../assets/resnet-cover.jpg},
+  note={CVPR Oral Presentation},
+  abstract={Deeper neural networks are more difficult to train. We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously. We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions.}
+}
+
+@article{gpt4,
+  title={GPT-4 Technical Report},
+  author={OpenAI},
+  year={2024},
+  journal={ArXiv},
+  url={https://arxiv.org/pdf/2303.08774.pdf},
+  code={https://github.com/openai/evals},
+  website={https://openai.com/research/gpt-4},
+  demo={https://chat.openai.com},
+  cover={../../assets/gpt4-cover.jpg},
+  note={Tech Report},
+  abstract={We report the development of GPT-4, a large-scale, multimodal model which can accept image and text inputs and produce text outputs. While less capable than humans in many real-world scenarios, GPT-4 exhibits human-level performance on various professional and academic benchmarks.}
+}
+
+@inproceedings{neurips2024diffusion,
+  title={High-Fidelity Image Generation with Latent Diffusion Models},
+  author={Chen, Emily and Wang, David and Brown, Michael},
+  booktitle={NeurIPS 2024},
+  year={2024},
+  url={https://arxiv.org/abs/2112.10752},
+  code={https://github.com/CompVis/latent-diffusion},
+  video={https://www.youtube.com/watch?v=diffusion-demo},
+  cover={../../assets/diffusion-cover.jpg},
+  note={Spotlight Presentation},
+  abstract={By decomposing the image formation process into a sequential application of denoising autoencoders, diffusion models (DMs) achieve state-of-the-art synthesis results on image data and beyond. Additionally, their formulation allows for a guiding mechanism to control the image generation process without retraining.}
+}
+
+@article{acl2023nlp,
+  title={Understanding Context in Large Language Models},
+  author={Johnson, Sarah and Zhang, Wei and Smith, Alex},
+  journal={ACL 2023},
+  year={2023},
+  url={https://arxiv.org/abs/2305.12345},
+  code={https://github.com/example/context-llm},
+  slides={https://example.com/slides/acl2023.pdf},
+  cover={../../assets/nlp-cover.jpg},
+  abstract={We investigate how large language models (LLMs) utilize context in long-document understanding tasks. Our analysis reveals that while models are capable of attending to distant tokens, they often rely on local heuristics for decision making.}
+}
+
+@inproceedings{cvpr2025transformer,
+  title={Vision Transformers for Small Datasets},
+  author={Zhang, Wei and Li, Jian and Johnson, Sarah},
+  booktitle={CVPR 2025},
+  year={2025},
+  url={https://arxiv.org/abs/2501.00000},
+  project={https://example.com/vit-small},
+  demo={https://huggingface.co/spaces/example/vit-small-demo},
+  cover={../../assets/vit-cover.jpg},
+  note={Best Student Paper},
+  abstract={Vision Transformers (ViT) typically require massive datasets to outperform CNNs. We propose a novel regularization technique and architecture modification that allows ViTs to train effectively on small datasets (e.g., CIFAR-10, Flowers-102) from scratch, achieving state-of-the-art performance.}
 }

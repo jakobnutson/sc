@@ -13,7 +13,7 @@ export async function getStaticPaths() {
 
 const { member } = Astro.props;
 const { Content } = await member.render();
-const { name, role, avatar, email, website, linkedin, github, twitter, googleScholar } = member.data;
+const { name, role, title, avatar, email, website, linkedin, github, twitter, googleScholar } = member.data;
 
 const roleToKey = {
   'Principal Investigator': 'team.pi',
@@ -43,7 +43,7 @@ const roleToKey = {
         
         <div class="flex-grow text-center md:text-left">
           <h1 class="text-3xl font-bold text-gray-900 mb-2">{name}</h1>
-          <p class="text-xl text-blue-600 font-medium mb-6" data-i18n-key={roleToKey[role]}>{role}</p>
+          <p class="text-xl text-blue-600 font-medium mb-6">{role}</p>
           
           <div class="flex flex-wrap justify-center md:justify-start gap-3">
             {email && (
@@ -83,6 +83,16 @@ const roleToKey = {
               </a>
             )}
           </div>
+
+          {title && title.length > 0 && (
+            <div class="flex flex-wrap justify-center md:justify-start gap-2 mt-4">
+              {title.map((t) => (
+                <span class="bg-blue-100 text-blue-800 text-xs px-2.5 py-0.5 rounded border border-blue-200">
+                  {t}
+                </span>
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </div>

@@ -6,6 +6,7 @@ dist/
 
 # dependencies
 node_modules/
+.pnpm-store/
 
 # logs
 npm-debug.log*
@@ -31,9 +32,23 @@ Desktop.ini
 .vscode/
 *.swp
 *.swo
+*.sublime-project
+*.sublime-workspace
 
 # Testing
 coverage/
 
 # Vercel
 .vercel/
+
+# Netlify
+.netlify/
+
+# Wrangler
+.wrangler/
+
+# TypeScript
+*.tsbuildinfo
+
+# Pagefind generated index in public (if any)
+public/pagefind/

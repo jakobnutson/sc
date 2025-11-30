@@ -14,11 +14,16 @@ const publications = defineCollection({
     links: z.object({
       pdf: z.string().optional(),
       code: z.string().optional(),
+      website: z.string().optional(),
       demo: z.string().optional(),
       slides: z.string().optional(),
       video: z.string().optional(),
     }).optional(),
     featured: z.boolean().default(false),
+    badges: z.array(z.object({
+      text: z.string(),
+      type: z.enum(['gold', 'blue', 'red', 'green', 'default']).default('default')
+    })).optional(),
   }),
 });
 

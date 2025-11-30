@@ -1,295 +1,192 @@
-# Scholar-Lite
+# 🎓 Scholar-Lite
 
 <div align="center">
 
-![Astro](https://img.shields.io/badge/astro-%232C2052.svg?style=for-the-badge&logo=astro&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)
+![Astro](https://img.shields.io/badge/Astro_v5-BC52EE?style=for-the-badge&logo=astro&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Pagefind](https://img.shields.io/badge/Pagefind-Search-FF0000?style=for-the-badge&logo=algolia&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
 
 **[English](./README.md) | [简体中文](./README.zh-CN.md)**
 
 <p align="center">
-  <a href="https://scholar-lite.netlify.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Live_Demo-在线演示-2ea44f?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Demo" />
-  </a>
-</p>
-
-<p align="center">
   <a href="https://app.netlify.com/start/deploy?repository=https://github.com/fjd2004711/scholar-lite">
-    <img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify">
+    <img src="https://www.netlify.com/img/deploy/button.svg" alt="部署到 Netlify">
   </a>
   <a href="https://vercel.com/new/clone?repository-url=https://github.com/fjd2004711/scholar-lite">
-    <img src="https://vercel.com/button" alt="Deploy with Vercel">
+    <img src="https://vercel.com/button" alt="部署到 Vercel">
   </a>
 </p>
 
-</div>
-
-## 📸 预览
-
-<div align="center">
-  <img src="./public/assets/screenshots/home-desktop.png" alt="桌面端预览" width="100%" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-</div>
+**为学术实验室与学者打造的下一代静态网站模板。**
+*极速响应、零配置 BibTeX 导入、内置多语言检索引擎。*
 
 <div align="center" style="margin-top: 20px;">
-  <img src="./public/assets/screenshots/mobile-view.png" alt="移动端预览" height="400" style="border-radius: 16px; border: 4px solid #333;">
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://692c677331a141b1b3cd18d7--fanciful-lokum-585bb3.netlify.app/">
+          <img src="https://img.shields.io/badge/Live_Demo-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo" />
+        </a>
+        <br />
+        <strong>在线预览</strong>
+      </td>
+      <td align="center">
+        <a href="https://github.com/fjd2004711/scholar-lite">
+          <img src="https://img.shields.io/badge/Source_Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" />
+        </a>
+        <br />
+        <strong>代码仓库</strong>
+      </td>
+    </tr>
+  </table>
 </div>
 
-> 🚀 **Scholar-Lite** 是一款专为学术实验室、研究团队和学者打造的**现代化、极速静态网站模板**。基于 **Astro v5** 和 **Tailwind CSS v4** 构建，开箱即享 **100/100 Lighthouse** 满分性能。
-
-## ⚡ 性能优先
-
-Scholar-Lite 为速度而生。基于 Astro 的 "Zero JS by Default" 架构，默认向客户端发送 **0kb JavaScript**，确保在任何网络环境下都能瞬间加载。
-
-![Lighthouse Score](./public/assets/screenshots/lighthouse-score.png)
-
-*Google Lighthouse 稳定满分 100/100。*
+</div>
 
 ---
 
-## ✨ 核心亮点
+## 🚀 为什么选择 Scholar-Lite？
 
-*   🚀 **极致性能**：默认 **0kb JavaScript** 运行时。告别加载等待，内容秒开。
-*   📱 **完美适配**：全响应式设计，在手机、平板和桌面端都能完美展示您的研究成果。
-*   🖼️ **智能图片管理**：直接上传高清原图（论文截图、团队合影），系统自动进行**压缩与 WebP 转换**，在保持画质的同时极大提升加载速度。
-*   ✍️ **Markdown 驱动**：无需数据库，无需懂代码！通过简单的 Markdown 文件即可管理论文、新闻和成员信息。
-*   🎨 **现代美学**：采用最新的 **Tailwind CSS v4**，打造清爽、专业的学术主页风格。
-*   🌐 **多语言支持**：内置国际化（i18n）架构，轻松实现中英文一键切换，连接全球学者。
-*   🔍 **智能搜索**：内置 **Pagefind** 静态搜索引擎，毫秒级检索论文与新闻。
-*   📊 **数据可视化**：集成可视化图表组件，直观展示论文发表趋势与影响力。
-*   📚 **BibTeX 导入**：支持一键导入 `.bib` 文件，自动生成论文列表，告别手动录入。
-*   🔍 **SEO 友好**：预置 Meta 标签与结构化数据，助您的学术成果更容易被搜索引擎收录。
-*   🛡️ **类型安全**：完全基于 TypeScript 构建，数据结构严谨可靠。
+### ⚡ 极致性能
+*   **默认零 JS (Zero JS)**：基于 **Astro v5** 构建，内容页面向客户端发送 **0kb** JavaScript，实现秒级加载。
+*   **Lighthouse 满分**：开箱即用的性能、可访问性、SEO 优化，均达到 Google Lighthouse 100/100 评分。
+*   **Tailwind CSS v4**：采用最新的原子化 CSS 框架，样式开发从未如此高效。
+
+### 🤖 智能自动化
+*   **一键 BibTeX 导入**：告别手动复制粘贴。只需放入 `citations.bib` 并运行一条命令，即可生成精美的论文列表。
+*   **智能解析**：自动提取 **PDF 链接**、**代码仓库**、**项目主页**、**视频演示**、**封面图片**，并智能清理 Zotero 等软件导出的冗余路径。
+*   **资源管理**：内置封面图回退机制，缺失图片时自动使用默认封面，确保布局整洁。
+*   **自动荣誉徽章**：自动根据 BibTeX 中的 `note` 字段识别 "Best Paper", "Oral" 等奖项并生成高亮徽章。
+
+### 🌍 全球化视野
+*   **多语言搜索引擎**：内置 **Pagefind** 静态搜索引擎，支持 **8 种语言**（中、英、日、韩、法、德、西、俄）的全文检索。
+*   **i18n 国际化**：原生支持中英双语切换，类型安全的翻译管理。
 
 ---
-
-## 📚 论文管理
-
-### BibTeX 自动导入
-无需手动编辑 Markdown 文件！只需将你的 `citations.bib` 文件放在项目根目录，然后运行：
-
-```bash
-npm run import-bibtex
-```
-
-系统会自动解析 `.bib` 文件并在 `src/content/publications/` 目录下生成对应的 Markdown 文件。
-
-## ⚙️ 个性化配置
-
-所有主要配置都集中在 `src/config.ts` 文件中。你无需深入代码即可修改实验室名称、Logo 和其他信息。
-
-```typescript
-// src/config.ts
-export const SITE = {
-  website: 'https://your-lab.com',
-  labName: 'Scholar-Lite Lab', // 实验室名称
-  university: 'University Name', // 所属高校/机构
-  logo: '/assets/logo-real.svg', // Logo 路径
-  email: 'contact@lab.edu',
-  
-  // 首页 Hero 区域配置
-  hero: {
-    title: 'Advancing Computer Vision & Deep Learning Research.', // 首页标题
-    subtitle: 'We are the Scholar-Lite Lab.', // 首页副标题
-    image: '/assets/hero-real.jpg', // 首页右侧大图路径
-  }
-};
-
-// Logo 显示配置
-export const LOGO_IMAGE = {
-  enable: true, // 是否显示 Logo
-  svg: true,
-  width: 216,
-  height: 46,
-};
-```
-
-### 🧭 导航栏配置
-
-你可以通过修改 `src/config.ts` 中的 `nav` 数组来自定义顶部导航栏。
-
-1.  **添加新菜单项**：
-    打开 `src/config.ts`，找到 `nav` 数组，添加你的菜单项：
-    ```typescript
-    export const SITE = {
-      // ...
-      nav: [
-        { text: 'Home', link: '/', key: 'home' },
-        { text: 'News', link: '/news', key: 'news' },
-        // 在这里添加新项：
-        { text: 'My Page', link: '/my-page', key: 'myPage' }, 
-      ],
-      // ...
-    };
-    ```
-
-2.  **添加多语言翻译（可选）**：
-    如果你需要该菜单项支持多语言切换，请编辑 `src/i18n/ui.ts` 并在 `nav` 命名空间下添加对应的 key：
-    ```typescript
-    export const ui = {
-      en: {
-        // ...
-        'nav.myPage': 'My Page',
-      },
-      zh: {
-        // ...
-        'nav.myPage': '我的页面',
-      },
-    };
-    ```
 
 ## 🛠️ 快速开始
 
 ### 环境要求
 *   Node.js v18.14.1 或更高版本
 
-### 1. 安装依赖
+### 1. 安装
 ```bash
+git clone https://github.com/your-repo/scholar-lite.git
+cd scholar-lite
 npm install
 ```
 
-### 2. 本地开发
-启动本地开发服务器，实时预览修改效果：
+### 2. 开发模式
+启动带有热更新的本地服务器：
 ```bash
 npm run dev
 ```
-浏览器访问：`http://localhost:4321`
+访问 `http://localhost:4321`。
 
-### 3. 构建部署
-生成生产环境的静态文件：
+### 3. 生产构建
+生成静态网站文件及搜索索引：
 ```bash
 npm run build
 ```
-构建产物位于 `dist/` 目录（GitLab Pages 模式下会自动移至 `public/`）。
+*注意：搜索索引仅在构建时生成，因此搜索功能需要运行 build 后才能完整体验。*
 
 ---
 
-## 📂 项目结构概览
+## 📚 智能论文管理系统
 
-清晰的项目结构，让定制变得简单直观。
+Scholar-Lite 在 `scripts/import-bibtex.js` 中内置了强大的 **BibTeX 导入引擎**。
 
-```text
-/
-├── public/                 # 静态资源 (favicon, robots.txt)
-├── src/
-│   ├── assets/             # 图片资源 (Astro 自动优化)
-│   ├── components/         # UI 组件 (导航栏, 论文卡片, 成员卡片)
-│   ├── content/            # 📝 核心数据库 (Markdown 文件)
-│   │   ├── activities/     # 团队活动
-│   │   ├── honors/         # 荣誉奖项
-│   │   ├── news/           # 新闻动态
-│   │   ├── patents/        # 专利
-│   │   ├── publications/   # 学术论文与著作
-│   │   ├── research/       # 研究方向介绍
-│   │   ├── softwares/      # 软件著作权
-│   │   ├── team/           # 团队成员
-│   │   └── config.ts       # ⚙️ 数据模型定义 (Zod Schema)
-│   ├── i18n/               # 🌐 多语言配置
-│   ├── pages/              # 页面路由
-│   └── config.ts           # 🛠️ 全局配置 (站点信息, 导航菜单)
-└── astro.config.mjs        # Astro 配置文件
+### 如何导入论文
+
+1.  **导出 BibTeX**：从 Zotero、Mendeley 或 Google Scholar 导出您的论文为 `citations.bib`。
+2.  **放置文件**：将 `citations.bib` 文件保存到项目根目录。
+3.  **运行导入**：
+    ```bash
+    npm run import-bibtex
+    ```
+
+### 高级 BibTeX 特性
+
+导入器会自动将 BibTeX 字段映射到网站布局，支持以下智能行为：
+
+| BibTeX 字段 | 网站元素 | 智能行为 |
+|-------------|----------|----------|
+| `cover`/`image` | 论文封面 | 自动检测 `src/assets/` 下的文件是否存在。如果缺失，自动使用默认封面。 |
+| `pdf`/`url`/`file` | PDF 按钮 | 自动清洗 Zotero 文件路径格式（如 `files/mypaper.pdf`）。 |
+| `code`/`github` | 代码按钮 | 识别代码仓库链接，生成 GitHub/Code 按钮。 |
+| `website`/`project` | **项目主页** | 识别项目主页链接，生成地球仪图标按钮。 |
+| `demo` | **在线演示** | 生成 Demo 按钮（支持 Web App / HuggingFace / 视频链接）。 |
+| `video`/`recording` | **视频** | 生成视频播放链接按钮。 |
+| `slides`/`ppt` | **幻灯片** | 生成 PPT 下载按钮。 |
+| `award`/`note` | **荣誉徽章** | 自动生成“最佳论文”（金色）、“口头报告”（蓝色）等高亮标签。 |
+
+**BibTeX 条目示例：**
+```bibtex
+@article{gpt4,
+  title={GPT-4 Technical Report},
+  author={OpenAI},
+  year={2024},
+  journal={ArXiv},
+  url={https://arxiv.org/pdf/2303.08774.pdf},
+  code={https://github.com/openai/evals},
+  website={https://openai.com/research/gpt-4},
+  demo={https://chat.openai.com},
+  cover={../../assets/gpt4-cover.jpg},
+  note={Tech Report}
+}
 ```
 
 ---
 
-## 📝 内容管理指南
+## 🌟 最佳实践
 
-本模板使用 **Markdown** 文件作为数据源。所有内容均位于 `src/content/` 目录下。
+### 📁 目录结构建议
+*   **图片资源**: 建议存放于 `src/assets/images/`。使用 `.webp` 或压缩后的 `.jpg` 格式以获得最佳性能。
+*   **团队照片**: 成员头像建议存放于 `src/assets/team/`，推荐使用 1:1 方形裁剪。
+*   **内容文件**: 所有可编辑内容（新闻、团队、研究方向）均位于 `src/content/` 目录下。
 
-### 1. 荣誉奖项 (Honors)
-**路径**: `src/content/honors/`
-支持自动根据奖项等级渲染不同的奖杯图标和颜色。
+### 📝 内容管理技巧
+*   **新闻动态**: 在 `src/content/news/` 添加新的 Markdown 文件。文件名不影响排序，系统会自动根据 frontmatter 中的 `date` 字段排序。
+*   **团队成员**: 在 `src/content/team/` 添加成员。使用 `weight` 字段控制显示顺序（数字越小越靠前）。
+*   **多语言文案**: 修改 `src/i18n/ui.ts` 可自定义导航栏、按钮等界面元素的翻译。
 
-| 属性 | 说明 | 示例值 |
-|------|------|--------|
-| `title` | 奖项名称 | "挑战杯金奖" |
-| `award` | 奖项等级描述 | "国家级一等奖" |
-| `type` | 比赛类型 | `Challenge Cup`, `Internet+`, `Other` |
-| `level` | **视觉样式等级** | `Special` (特等), `First` (一等), `Second` (二等), `Third` (三等) |
-
-**示例**:
-```yaml
----
-title: "AI 医疗辅助诊断系统"
-award: "国家级一等奖"
-date: 2023-10-01
-year: "2023"
-type: "Challenge Cup"
-level: "First"
----
-```
-
-### 2. 学术论文 (Publications)
-**路径**: `src/content/publications/`
-
-| 属性 | 说明 |
-|------|------|
-| `title` | 论文标题 |
-| `authors` | 作者列表 `['Zhang San', 'Li Si']` |
-| `venue` | 发表期刊或会议 (如 CVPR 2024) |
-| `links` | 资源链接 (PDF, Code, Demo, Video) |
-| `featured` | 是否在首页精选显示 (`true`/`false`) |
-
-**示例**:
-```yaml
----
-title: "Deep Learning for Computer Vision"
-authors: ["San Zhang", "Si Li"]
-year: 2024
-venue: "CVPR 2024"
-type: "paper"
-links:
-  pdf: "https://arxiv.org/abs/..."
-  code: "https://github.com/..."
-featured: true
----
-```
-
-### 3. 团队成员 (Team)
-**路径**: `src/content/team/`
-
-| 属性 | 说明 |
-|------|------|
-| `name` | 姓名 |
-| `role` | 角色: `Teacher`, `Postdoc`, `Graduate Student` 等 |
-| `avatar` | 头像路径 (相对于 assets) |
-| `weight` | 排序权重 (数字越小越靠前) |
+### 🖼️ 图片优化
+Scholar-Lite 会自动优化从 `src/assets/` 导入的图片。
+*   **避免**: 将大图直接放在 `public/` 目录下（这会绕过构建优化）。
+*   **推荐**: 在 Markdown 或 Astro 组件中引用图片，享受自动压缩、格式转换和懒加载特性。
 
 ---
 
-## ⚙️ 系统配置
+## 🚢 部署指南
 
-### 1. 修改站点基本信息
-编辑 `src/config.ts` 文件，自定义你的实验室名称、Logo、导航菜单和社交链接。
+Scholar-Lite 是纯静态网站，可以部署在任何静态托管服务上。
 
-```typescript
-export const SITE = {
-  website: 'https://your-lab-site.com',
-  author: 'Intelligent Computing Lab',
-  desc: 'Focusing on AI and CV research.',
-  title: 'Scholar-Lite',
-  // ...
-};
-```
+### 推荐平台
 
-### 2. 配置多语言
-编辑 `src/i18n/ui.ts` 文件。
-*   在 `languages` 对象中添加新语言。
-*   在 `ui` 对象中添加对应的翻译文本。
+| 平台 | 全球访问速度 | 易用性 | 成本 |
+|----------|----------------|---------------|------|
+| **Cloudflare Pages** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | 免费 |
+| **Vercel** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | 免费 |
+| **Netlify** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | 免费 |
+| **GitHub Pages** | ⭐⭐⭐ | ⭐⭐⭐⭐ | 免费 |
 
----
+### Cloudflare Pages / Vercel / Netlify
+1.  在平台控制台连接您的 GitHub/GitLab 代码仓库。
+2.  **构建命令 (Build Command)**: `npm run build`
+3.  **输出目录 (Output Directory)**: `dist`
+4.  点击部署即可。
 
-## 🚢 部署
-
-### GitLab Pages (预配置)
-项目包含 `.gitlab-ci.yml` 文件，推送到 GitLab 后即可自动构建并部署到 Pages。
-
-### 其他平台 (Vercel / Netlify)
-只需连接你的 Git 仓库，构建命令设置为 `npm run build`，发布目录设置为 `dist/` 即可。
+### GitHub Pages / GitLab Pages
+本项目已包含 CI/CD 配置文件（`.github/workflows` 和 `.gitlab-ci.yml`），推送到代码仓库后会自动触发构建并发布到 GitHub/GitLab Pages。
 
 ---
 
 <div align="center">
-Created with ❤️ by <a href="https://github.com/nxu-scholar">Scholar-Lite Team</a>
+
+**[Scholar-Lite Team](https://github.com/fjd2004711)**
+<br>
+*用现代 Web 技术赋能学术研究。*
+
 </div>
