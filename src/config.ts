@@ -43,7 +43,7 @@ export const SITE = {
   
   // i18n Config
   i18n: {
-    enabled: true,
+    enabled: false,
     defaultLocale: 'zh',
   }
 };
