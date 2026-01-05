@@ -1,7 +1,7 @@
 import heroImage from './assets/hero-real.jpg';
 
 export const SITE = {
-  website: 'https://jakobnutson.github.io', // Replace with your actual deployed URL
+  website: 'https://jakobnutson.github.io/sc', // Replace with your actual deployed URL
   author: 'Scholar-Lite Team',
   description: 'A lightweight, modern static website template for academic labs and scholars.',
   title: 'Scholar-Lite',
