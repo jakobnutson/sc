@@ -7,9 +7,9 @@ export const defaultLang = DEFAULT_LANG;
 export const ui = {
   en: {
     'nav.home': 'Əsas',
-    'nav.research': 'Research',
-    'nav.achievements': 'Achievements',
-    'nav.publications': 'Publications',
+    'nav.research': 'Evlər',
+    'nav.achievements': 'Layihələr',
+    'nav.publications': 'Layihələr',
     'nav.patents': 'Patents',
     'nav.team': 'Team',
     'nav.activities': 'Activities',
