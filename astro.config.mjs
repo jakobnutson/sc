@@ -6,7 +6,7 @@ import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://jakobnutson.github.io',
+    site: 'https://jakobnutson.github.io/sc/',
   base: '/sc',
   compressHTML: true,
   build: {
