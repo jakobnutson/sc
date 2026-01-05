@@ -13,7 +13,7 @@ export const SITE = {
   // Lab Info
   labName: 'Scholar-Lite Lab',
   university: 'University Name',
-  logo: '/assets/logo-real.svg', // Logo path
+  logo: '/sc/assets/logo-real.svg', // Logo path
   avatar: '/assets/logo-real.svg', // Avatar for SEO/Schema
   email: 'contact@lab.edu', // Contact email for Join Us page
 
