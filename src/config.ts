@@ -14,7 +14,7 @@ export const SITE = {
   labName: 'Scholar-Lite Lab',
   university: 'University Name',
   logo: '/sc/assets/logo-real.svg', // Logo path
-  avatar: '/assets/logo-real.svg', // Avatar for SEO/Schema
+  avatar: '/sc/assets/logo-real.svg', // Avatar for SEO/Schema
   email: 'contact@lab.edu', // Contact email for Join Us page
 
   // Hero Section (Home Page) - Main content does not need to be translated for 8 languages by default
@@ -27,13 +27,13 @@ export const SITE = {
 
   // Navigation
   nav: [
-    { text: 'Home', link: '/', key: 'home' },
-    { text: 'Research', link: '/research', key: 'research' },
-    { text: 'Achievements', link: '/achievements', key: 'achievements' },
-    { text: 'Team', link: '/team', key: 'team' },
-    { text: 'Activities', link: '/activities', key: 'activities' },
-    { text: 'Join Us', link: '/join', key: 'join' },
-    { text: 'Search', link: '/search', key: 'search' },
+    { text: 'Home', link: '/sc/', key: 'home' },
+    { text: 'Research', link: '/sc/research', key: 'research' },
+    { text: 'Achievements', link: '/sc/achievements', key: 'achievements' },
+    { text: 'Team', link: '/sc/team', key: 'team' },
+    { text: 'Activities', link: '/sc/activities', key: 'activities' },
+    { text: 'Join Us', link: '/sc/join', key: 'join' },
+    { text: 'Search', link: '/sc/search', key: 'search' },
   ],
 
   // Custom Pages (Appended after 'Join Us')
