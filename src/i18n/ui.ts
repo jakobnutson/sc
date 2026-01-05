@@ -6,7 +6,7 @@ export const defaultLang = DEFAULT_LANG;
 
 export const ui = {
   en: {
-    'nav.home': 'Home',
+    'nav.home': 'Əsas',
     'nav.research': 'Research',
     'nav.achievements': 'Achievements',
     'nav.publications': 'Publications',
