@@ -10,14 +10,14 @@ export const ui = {
     'nav.research': 'Evlər',
     'nav.achievements': 'Layihələr',
     'nav.publications': 'Layihələr',
-    'nav.patents': 'Patents',
+    'nav.patents': 'Patentlər',
     'nav.team': 'Team',
-    'nav.activities': 'Activities',
-    'nav.join': 'Join Us',
-    'nav.news': 'News',
-    'nav.search': 'Search',
+    'nav.activities': 'Layihələr',
+    'nav.join': 'Bizimlə Əlaqə',
+    'nav.news': 'Xəbərlər',
+    'nav.search': 'Axtar',
     
-    'search.subtitle': 'Search through our publications, news, and team members.',
+    'search.subtitle': 'Axtarış.',
     
     // 'hero.title': 'Advancing Computer Vision & Deep Learning Research.', // Moved to config.ts
     // 'hero.subtitle': 'We are the Scholar-Lite Lab.', // Moved to config.ts
